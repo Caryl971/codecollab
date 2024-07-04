@@ -9,22 +9,24 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f8ff;
         }
         header {
-            background-color: #ffccff;
+            background-color: #7fffd4;
             padding: 20px;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #f2f2f2;
+            background-color: #e0ffff;
             padding: 10px;
         }
         nav a {
             margin: 0 15px;
             text-decoration: none;
             color: #333;
+            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
@@ -33,7 +35,7 @@
             padding: 20px;
         }
         footer {
-            background-color: #ffccff;
+            background-color: #7fffd4;
             text-align: center;
             padding: 10px;
             position: fixed;
@@ -52,6 +54,7 @@
 <nav>
     <a href="#services">Nos Services</a>
     <a href="#tarifs">Nos Tarifs</a>
+    <a href="#promotions">Promotions</a>
     <a href="#contact">Nous Contacter</a>
 </nav>
 
@@ -67,6 +70,16 @@
         <li>Location de licorne standard : 100€ par heure</li>
         <li>Location de licorne premium : 150€ par heure</li>
         <li>Forfait journée complète : 800€</li>
+    </ul>
+</section>
+
+<section id="promotions">
+    <h2>Promotions</h2>
+    <p>Profitez de nos offres spéciales et réductions :</p>
+    <ul>
+        <li><strong>Réduction de 10% :</strong> Pour toute réservation de plus de 3 heures.</li>
+        <li><strong>Forfait Anniversaire :</strong> 500€ pour une journée complète, incluant une licorne premium.</li>
+        <li><strong>Offre spéciale été :</strong> 20% de réduction pour toute réservation effectuée avant le 31 août.</li>
     </ul>
 </section>
 
